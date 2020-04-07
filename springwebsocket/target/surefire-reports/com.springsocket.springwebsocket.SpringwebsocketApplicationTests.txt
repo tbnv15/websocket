@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.springsocket.springwebsocket.SpringwebsocketApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 22.55 s - in com.springsocket.springwebsocket.SpringwebsocketApplicationTests

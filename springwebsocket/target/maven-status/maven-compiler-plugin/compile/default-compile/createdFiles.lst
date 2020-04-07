@@ -1,0 +1,12 @@
+com\springsocket\springwebsocket\ChatMessage.class
+com\springsocket\springwebsocket\Message.class
+com\springsocket\springwebsocket\WebSocketEventListener.class
+com\springsocket\springwebsocket\WebSocketConfig.class
+com\springsocket\springwebsocket\ChatPool.class
+com\springsocket\springwebsocket\HttpHandshakeInterceptor.class
+com\springsocket\springwebsocket\Room.class
+com\springsocket\springwebsocket\OutputMessage.class
+com\springsocket\springwebsocket\ChatMessage$MessageType.class
+com\springsocket\springwebsocket\SpringWebsocketApplication.class
+com\springsocket\springwebsocket\MessageController.class
+com\springsocket\springwebsocket\ChatController.class
