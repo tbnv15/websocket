@@ -43,6 +43,7 @@ public class WebSocketEventListener {
       if(chatPool.getRoom().get(i).getRoomName().equals(roomId))
       {
         chatPool.getRoom().get(i).setIsOccupied("N");
+        chatPool.getRoom().get(i).setParticipantCount(chatPool.getRoom().get(i).getParticipantCount()-1);
         logger.info("After Room changed ->"+chatPool);
         break;
       }
