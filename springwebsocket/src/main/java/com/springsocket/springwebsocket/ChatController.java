@@ -14,10 +14,12 @@ import org.springframework.messaging.handler.annotation.Payload;
 import org.springframework.messaging.simp.SimpMessageHeaderAccessor;
 import org.springframework.messaging.simp.SimpMessageSendingOperations;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 
 @Controller
+@CrossOrigin(origins = "http://homedepotchatbot-vtdffy.appspot.com/")
 public class ChatController
 {
 
@@ -82,14 +84,4 @@ public class ChatController
 	{
 		return "index";
 	}
-    @RequestMapping("/css")
-    public String getCss()
-    {
-        return "main.css";
-    }
-    @RequestMapping("/js")
-    public String getJs()
-    {
-        return "main.js";
-    }
 }

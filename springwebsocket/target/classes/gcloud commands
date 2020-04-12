@@ -1,0 +1,2 @@
+To deploy jar file into app engine --> gcloud app deploy target/springwebsocket-0.0.1-SNAPSHOT.jar
+To create JAR file --> mvn clean package
