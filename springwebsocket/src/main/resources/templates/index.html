@@ -340,7 +340,8 @@ button.accent {
 <div id="chat-page" class="hidden">
   <div class="chat-container">
     <div class="chat-header">
-      <h2>Chatroom [<span id="room-id-display"></span>]</h2>
+      <h2>Chatroom [<span id="room-id-display"></span>]</h2><br>
+      <p id = "welcome"></p>
     </div>
     <div class="connecting">
       Connecting...
@@ -467,7 +468,7 @@ $(document).ready(function() {
     Cookies.set('roomId', roomId);
     roomIdDisplay.textContent = roomId;
     topic = `/app/chat/${newRoomId}`;
-
+    document.getElementById("welcome").innerHTML = "Chatting as "+ username;
     if (currentSubscription) {
       currentSubscription.unsubscribe();
     }
